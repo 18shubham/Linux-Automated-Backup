@@ -1,0 +1,29 @@
+# ── Directories to back up ──────────────────────────────
+BACKUP_SOURCES=(
+    "$HOME/linux-System-Health-Monitor"
+    "$HOME/task-2"
+)
+
+# ── Local backup destination ────────────────────────────
+LOCAL_BACKUP_DIR="./backups"
+
+# ── Remote backup (leave empty to skip) ────────────────
+REMOTE_USER=""
+REMOTE_HOST=""
+REMOTE_DIR="/backups"
+
+# ── Retention policy ────────────────────────────────────
+KEEP_LAST=7             # keep only last 7 backups
+
+# ── Compression ─────────────────────────────────────────
+COMPRESSION="gzip"      # gzip or bzip2
+
+# ── Notifications ───────────────────────────────────────
+SLACK_WEBHOOK_URL=""
+ALERT_EMAIL=""
+
+# ── Logging ─────────────────────────────────────────────
+LOG_FILE="./logs/backup.log"
+
+
+
