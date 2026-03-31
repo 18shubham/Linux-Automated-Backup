@@ -1,5 +1,5 @@
 backups/
 logs/
-*.log
 *.tar.gz
+*.log
 config/backup.conf
